@@ -1,0 +1,21 @@
+{
+"name": "Ohm kalkulačka",
+"short_name": "kalkulačka",
+"display": "standalone",
+"background_color": "#ffffff",
+
+"icons": [
+    {
+        "src": "/icons/telefon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    },
+    {
+        "src": "/icons/telefon2max.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }
+    
+
+]
+}
