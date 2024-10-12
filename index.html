@@ -14,10 +14,36 @@
     
     <p>
         <form action="" id="formular">
-            <label for=""></label>
-    
-    
-    
+            <div>
+                <select name="" id="vyber" onchange="napis()">
+                    <option value="operace" id="oerace">Operace</option>
+                    <option value="odpor" id="odpor">Odpor</option>
+                    <option value="proud" id="proud">Proud</option>
+                    <option value="napeti" id="napeti">Napětí</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="" id="label1"></label>
+                <input type="number" name="" id="cislo1">
+            </div>
+            <br>
+            <div>
+                <label for="" id="label2"></label>
+                <input type="number" name="" id="cislo2">
+            </div>
+
+            <br>
+
+            <div>
+                <input type="button" value="Výsledek" onclick="vypocet()">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="" id="vysledekCislo"></label>
+            </div>
         </form>
     </p>
 
